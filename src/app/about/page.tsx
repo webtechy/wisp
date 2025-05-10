@@ -6,36 +6,34 @@ import Markdown from "react-markdown";
 
 const content = `# About Me
 
-![Samantha](https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/db7abbe3-aa5c-433e-a16d-cbf137d1c9e5.png/public)
+![Andy](/images/LinkedIn-profile-small.jpeg)
 
-Hey there! I'm Samantha, a 28-year-old former corporate warrior who decided to ditch the 9-to-5 grind and embark on an adventure of a lifetime. After years of hustling in a high-pressure job, I realized that life is too short to be stuck in an office, staring at spreadsheets all day.
+Hey there! I'm Andy, a Cloud Solutions Engineer who likes to help with consulting to bring enterprise solutions experience to small business problems.
 
-So I took a leap of faith, quit my cushy job in Singapore, and decided to see the world on my own terms. No more stuffy meetings or rigid schedules – just me, my backpack, and an open road ahead.
+I've been doing self learning through a homelab throughout my 15+ year career in tech and found it to be a great way to learn and test out new cloud services technology.
 
-![Samantha](https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/6b080e65-2329-4a36-ad5c-0a6af8d9aeb1.png/public)
+I've had experience in Cloud PaaS (AWS, GCP, OCI), Cloud Security & Governance (Wiz), Cybersecurity, IaC (Terraform, Cloudformation), CICD (Gitlab, Jenkins), Containers (Docker, ECS), Cloud networking (domains, DNS, proxy, CDNs, Cloudflare), and websites (SSG, Jamstack)
 
-This blog is where I'll be documenting my travels, sharing my experiences, and hopefully inspiring others to follow their wanderlust. From trekking through remote villages to savoring local cuisines, I'm on a mission to immerse myself in different cultures and create memories that will last a lifetime.
+I've gone from simple web hosting to open source, container based applications behind a nginx proxy manager reverse proxy for self-hosting.
 
-But this journey isn't just about checking off destinations from a bucket list. It's about self-discovery, personal growth, and finding the courage to live life on my own terms. I'll be honest and raw, sharing the highs and lows, the moments of pure bliss and the inevitable challenges that come with solo travel.
+I feel like I can provide cost-efficient value to small businesses which are unecessarily paying for expensive web hosting solutions. 
 
-So join me on this adventure, and let's explore the world together! Who knows, maybe my stories will inspire you to take that leap of faith and pursue your own dreams, whatever they may be.
+Through consulting services, I can help small businesses acheive simplicity, quality and real value for their online businesses.
 
 Let's go on an adventure!
 
-Love,
-
-Samantha`;
+Andy`;
 
 export async function generateMetadata() {
   return {
     title: "About Me",
-    description: "Learn more about Samantha and her travel adventures",
+    description: "Learn more about Andy and his homelab services",
     openGraph: {
       title: "About Me",
-      description: "Learn more about Samantha and her travel adventures",
+      description: "Learn more about Andy and his homelab services",
       images: [
         signOgImageUrl({
-          title: "Samantha",
+          title: "Andy",
           label: "About Me",
           brand: config.blog.name,
         }),
